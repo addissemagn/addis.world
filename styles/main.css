@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap");
+@import url("text-wave.css");
+
+::-moz-selection {
+    background: #030303;
+    color: #fff;
+}
+
+::selection {
+    background: #030303;
+    color: #fff;
+}
+
+::-moz-selection {
+    background: #030303;
+    color: #fff;
+}
+
+* {
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.5rem;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    background-color: #fff;
+    overflow-x: hidden;
+    min-height: 100vh;
+    padding-bottom: 80px;
+}
+
+a {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+h1,
+h2 {
+    font-weight: bold;
+    margin-bottom: 0.9rem;
+    text-align: center;
+}
+
+h1:not(:first-child),
+h2:not(:first-child) {
+    margin-top: 3rem;
+}
+
+h1 {
+    font-size: 1.625rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+.name {
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+    h1 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    h1+p {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+}
+
+h2 {
+    font-size: 1.625rem;
+    line-height: 2.5rem;
+}
+
+p,
+ul,
+li,
+dl {
+    margin-bottom: 0.9rem;
+}
+
+dt {
+    display: block;
+    margin-top: 0.9rem;
+}
+
+dt:before {
+    content: "";
+    display: block;
+    margin-top: 0.9rem;
+}
+
+dd {
+    display: block;
+}
+
+dt a,
+li a {
+    pointer-events: auto;
+    position: relative;
+    z-index: -1;
+}
+
+dt a:hover,
+li a:hover {
+    background: #fff;
+    border: 1px solid black;
+    padding: 2px 4px;
+    margin: -4px -5px;
+    -webkit-box-shadow: -8px 8px 0 rgba(0, 0, 0, 0.18);
+    box-shadow: -8px 8px 0 rgba(0, 0, 0, 0.18);
+}
+
+dt a:hover:after,
+li a:hover:after {
+    display: none;
+}
+
+a {
+    position: relative;
+    display: inline-block;
+}
+
+a:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: #030303;
+    height: 1px;
+    width: 100%;
+    bottom: 0px;
+}
+
+ol,
+ul,
+dl {
+    list-style: none;
+}
+
+em,
+i {
+    font-style: italic;
+}
+
+strong,
+b {
+    font-weight: 700;
+}
+
+.me {
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+
+.list-bullets dd {
+    display:list-item !important;
+    list-style-type: square !important;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 40rem;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+main {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+.experience-list {
+    position: relative;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.box {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 2rem;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #030303;
+    -webkit-box-shadow: -0.75rem 0.75rem 0 rgba(0, 0, 0, 0.18);
+    box-shadow: -0.75rem 0.75rem 0 rgba(0, 0, 0, 0.18);
+}
+
+.row {
+  display: flex;
+}
+
+.row .box, .column {
+  flex: 50%;
+
+  /* Remove box styling */
+  margin-bottom: 0px;
+  padding: 0px;
+  border: none;
+  box-shadow: none;
+}
+
+.row .box:not(:first-child),
+.column:not(:first-child) {
+  margin-left: 20px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.mt-4 {
+    margin-top: 4rem;
+}
+
+.art p {
+    margin-top: 0.5rem;
+    color: #aaa;
+    font-size: 0.85rem;
+    line-height: 1rem;
+}
+
+.small {
+    font-size: 0.85rem;
+    line-height: 1rem;
+}
