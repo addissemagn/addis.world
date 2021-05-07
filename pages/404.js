@@ -10,7 +10,7 @@ const App = () =>
         <${Nav} />
         <${Header}
           heading="ʕ •ᴥ•ʔ"
-          subheading="under constructionnn."
+          subheading="under constructionnn. come back soon."
         />
         <${Footer} />
       </main>

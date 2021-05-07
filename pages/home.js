@@ -81,7 +81,7 @@ const SectionAbout = () =>
 
       <p class="small">
         If you want to chat about any of these things, let's grab a virtual
-        coffee (or tea if that's ya vibe).
+        coffee (or the drink that's ya vibe).
       </p>
     </section>
   `;

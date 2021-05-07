@@ -27,6 +27,8 @@ const data = {
         link: "/404",
       },
     ],
+    footer:
+      "made by addis <a href='https://github.com/addissemagn/addis.world'><i class='fab fa-github'></i></a>, <br /> listening to <a href='https://open.spotify.com/playlist/0cF1p8yQopiQTNN6HktvOt?si=daecec02b0e54e09'>this</a>",
   },
 };
 
