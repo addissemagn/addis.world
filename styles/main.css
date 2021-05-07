@@ -220,6 +220,18 @@ main {
   margin-left: 20px;
 }
 
+/* Single row layout on mobile screens */
+@media screen and (max-device-width: 480px) {
+    .row {
+        display: block;
+    }
+    .row .box:not(:first-child),
+    .column:not(:first-child) {
+        margin-left: 0px;
+    }
+}
+
+
 .hidden {
     visibility: hidden;
 }

@@ -87,16 +87,16 @@ const data = {
         "Othello game-playing AI. Made using minimax with iterative deepening depth-first search and alpha-beta pruning algorithms.",
     },
     {
-      name: "Weather Genie",
-      path: "/assets/projects-weather.jpg",
-      stack: ["React", "JavaScript", "Meteostat API", "Unsplash API"],
-      desc: "Compare weather across cities.",
-    },
-    {
       name: "Rubik",
       path: "/assets/projects-rubik.jpg",
       stack: ["JavaScript", "Three.js", "jQuery"],
       desc: "Interactive 3D rubik's cube with built-in solver.",
+    },
+    {
+      name: "Weather Genie",
+      path: "/assets/projects-weather.jpg",
+      stack: ["React", "JavaScript", "Meteostat API", "Unsplash API"],
+      desc: "Compare weather across cities.",
     },
     {
       name: "Hangry UofT",

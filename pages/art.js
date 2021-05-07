@@ -1,5 +1,6 @@
 import { html } from "/lib/preact.js";
 import Nav from '/components/Nav.js';
+import Footer from '/components/Footer.js';
 import { Header } from "/components/Misc.js";
 import data from "/data/art.js";
 
@@ -40,6 +41,7 @@ const App = () =>
           subheading=${data.header.desc}
         />
         <${SectionArt} />
+        <${Footer} />
       </main>
     </div>
   `;
