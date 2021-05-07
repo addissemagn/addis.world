@@ -47,7 +47,7 @@ const data = {
       position: "Software Engineer Intern",
       date: "Winter 2021",
       desc:
-        "Building new retail payment experiences for Cash App users as a product server engineer on the Commerce team.",
+        "Product server engineer on the Commerce team, building new retail payment experiences for Cash App users.",
     },
     {
       company: "Uplift",
@@ -55,7 +55,7 @@ const data = {
       position: "Software Engineer Intern",
       date: "Fall 2020",
       desc:
-        "Scaled operations portal web app and REST API for automating internal operations for travel financing services. Designed a system to manage sensitive customer data and kill switch for point-of-sale.",
+        "Scaled the operations portal web app and REST API for automating internal operations for travel financing services, implementing a system to manage sensitive customer data and a kill switch for point-of-sale.",
     },
     {
       company: "RelayPay",
@@ -63,7 +63,7 @@ const data = {
       position: "Software Engineer Intern",
       date: "Summer 2020",
       desc:
-        "Owned development of dashboard for onboarding businesses and displaying meaningful financial metrics. Expanded merchant-facing REST API to enable cryptocurrency payments for e-commerce. Deployed internal mail server for email push notifications, <u>saving $3.6K/year</u>.",
+        "Expanded the merchant-facing REST API to enable cryptocurrency payments for e-commerce, and owned the development of a dashboard for onboarding businesses and displaying meaningful financial metrics.",
     },
     {
       company: "Shopify",
@@ -78,15 +78,15 @@ const data = {
   about: {
     bio: [
       "<strong>addis.world</strong> comes from my full name, Addisalem አዲስ ዓለም, which in Amharic means new (addis) world (alem).",
-      "Born in Addis Ababa, Ethiopia, I've been calling Toronto home since 2013. Though I've lived in 5 countries, my fluencies in computer languages far outnumber my spoken ones.",
-      "I first learned how to program in my first-year intro to C course at the University of Toronto. My endless curiosity met with this new power to make led to many late nights of tinkering and a passion was born (this is starting to sound like a romance). To get to also do this for a living is something I'm immensely grateful for.",
-      "Ultimately, I'm driven by relationships, experiences, and growth. The empowerment that tech has given me is something I want to continuously share. To build software that enables people to take control of their lives. To help make tech more accessible to underrepresented groups. To learn exciting things and share that excitement with others. To live a life generous in giving.",
+      "I'm from Addis Ababa, Ethiopia and have been calling Toronto home since 2013. Though I've lived in 5 countries, my fluencies in computer languages far outnumber my spoken ones.",
+      "I first learned to code in my first-year intro to C course. My endless curiosity met with this new power to make led to many late nights of tinkering and a passion was born (this is starting to sound like a romance). I'm immensely grateful to also do this for a living.",
+      "Ultimately, I'm driven by relationships, experiences, and growth. The empowerment that tech and the wonderful people I've met through it have given me is something I want to continuously share. To build software that enables people to take control of their lives. To help make tech more accessible to underrepresented groups. To learn exciting things and share that excitement with others. To live a life generous in giving.",
     ],
     interests: [
-      "Collecting hobbies. Lately, I've been getting back into writing tunes and playing electric guitar, and <strike>taking L's</strike> learning how to skateboard. I'm also into <a href='/art'>making art</a>, though I do a lot less of that these days.",
-      "Discovering music ♪٩(✿′ᗜ‵✿)۶♪. I love music like I love to breathe. I’ve made <a href='https://open.spotify.com/user/heyaddis'>Spotify playlists</a> every month since Nov 2015. It's one of those habits that helps me connect with the simple joys of living.",
+      "Collecting hobbies. Lately, I've gotten back into writing songs and playing electric guitar, and been <strike>taking L's</strike> learning how to skateboard. I also like <a href='/art'>making art</a>, though I do a lot less of that these days.",
+      "Discovering music ♪٩(✿′ᗜ‵✿)۶♪ and making <a href='https://open.spotify.com/user/heyaddis'>Spotify playlists</a>.",
       "Evangelizing vim and key bindings. Trust me, I didn't think I'd be that person either.",
-      "Tasteful stationery. My current sidekick is an A6 <a href='https://itoya.com/products/notebooks-journals/profolio-oasis-notebook/'>Itoya Oasis</a> notebook. I use it to scribble down dreams and architect side projects, so the combined lined/graph/dot paper pattern is perfect.",
+      "Tasteful stationery. My current sidekick is this A6 <a href='https://itoya.com/products/notebooks-journals/profolio-oasis-notebook/'>Itoya Oasis</a> notebook. The combined lined/graph/dot paper pattern is perfect for everything from scribbling down dreams to architecting side projects.",
     ],
   },
 };
