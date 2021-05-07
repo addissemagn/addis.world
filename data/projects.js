@@ -15,6 +15,18 @@ const data = {
         "<b>Winner @ CryptoChicks Hack 2019</b> — Emergency response system connecting bystanders of cardiac arrest to a network of CPR certified volunteers.",
     },
     {
+        name: "Yeshi Social Cookbook",
+        path: "/assets/projects-yeshi.gif",
+        stack: ["React", "Node.js/Express.js REST API", "MongoDB", "AWS S3 for image hosting", "GCloud Vision for text recongition", "JWT user authentication", "Netlify serverless functions"],
+        desc: "A social cookbook manager I made for my families to share our home recipes. <strong>Features</strong>: upload recipes from handwriting, add images, create and share cookbooks, track pantry items, add recipe to grocery list to auto update missing ingredients.",
+    },
+    {
+      name: "SnapSaver",
+      path: "/assets/projects-snapsaver.jpg",
+      stack: ["Python", "Flask", "AWS EC2", "SMTP for emails"],
+      desc: "Simple web and CLI tool to bulk download your Snapchat Memories. <strong>Motivation</strong>: Snapchat makes you download your media one by one. As there's no tool to mass download them, I built one. <strong>Features</strong>: resuming download, file and ZIP handling, optionally receiving email with ZIP once complete.",
+    },
+    {
       name: "Spotify-themed Personal Website",
       path: "/assets/projects-spotify.gif",
       stack: ["JavaScript", "CSS", "<a href='https://github.com/dragonman225/notablog'>Notablog</a>"],
@@ -22,22 +34,10 @@ const data = {
         "This was version 23497 of my website (I've lost count), integrated with Notion as the CMS. Archived for now but my personal favorite :)",
     },
     {
-      name: "SnapSaver",
-      path: "/assets/projects-snapsaver.jpg",
-      stack: ["Python", "Flask", "AWS EC2", "SMTP for emails"],
-      desc: "Simple web and CLI tool to bulk download your Snapchat Memories. Features: resuming download, file and ZIP handling, optionally receiving email with ZIP once complete.",
-    },
-    {
-        name: "Yeshi Social Cookbook",
-        path: "/assets/projects-yeshi.gif",
-        stack: ["React", "Node.js/Express.js REST API", "MongoDB", "AWS S3 for image hosting", "GCloud Vision for text recongition", "JWT user authentication"],
-        desc: "A social cookbook manager I made for my families to share our home recipes. Features: upload recipes from handwriting, add images, create and share cookbooks, track pantry items, add recipe to grocery list to auto update missing ingredients.",
-    },
-    {
         name: "Cannonball Website",
         path: "/assets/projects-cannonball.gif",
-        stack: ["React", "Node.js/Express.js REST API", "MongoDB", "Stripe API", "Gmail API", "JWT user authentication"],
-        desc: "Event/ticketing app for University of Toronto engineering event. Features not shown: Choose Your Adventure game, admin dashboard."
+        stack: ["React", "Node.js/Express.js REST API", "MongoDB", "Stripe API", "Gmail API", "JWT user authentication", "Netlify serverless functions"],
+        desc: "Event/ticketing app for University of Toronto engineering event. <strong>Features not shown</strong>: Choose Your Adventure game, admin dashboard."
     },
     {
       name: "Educate Me",
@@ -70,7 +70,7 @@ const data = {
       name: "Rubik",
       path: "/assets/projects-rubik.jpg",
       stack: ["JavaScript", "Three.js", "jQuery"],
-      desc: "Interactive 3D rubik's cube.",
+      desc: "Interactive 3D rubik's cube with built-in solver.",
     },
     {
       name: "Hangry UofT",

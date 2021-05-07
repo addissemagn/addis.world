@@ -222,7 +222,7 @@ main {
 .row .box, .column {
   flex: 50%;
 
-  /* Remove box styling */
+  /* Remove box styling surrounding elements */
   margin-bottom: 0px;
   padding: 0px;
   border: none;
