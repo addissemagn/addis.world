@@ -2,7 +2,7 @@ const data = {
   header: {
     title: "Projects",
     desc:
-      "In my free time, I like to wave my wand and cast away newly discovered spells to build projects, here are a few.",
+      "In my free time, I like to <TextWave text='wave' /> my wand and cast away newly discovered spells to build projects. Here are a few.",
     img: "/assets/projects-harry-potter.gif",
   },
   projects: [

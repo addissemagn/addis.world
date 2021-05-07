@@ -52,7 +52,7 @@ const SectionExperiences = () =>
 const Experience = ({ experience }) =>
   html`
     <dt>
-      <strong> <a href="${experience.url}">${experience.company}</a> </strong>
+      <strong> <a href="${experience.url}">${experience.company}</a></strong>
       , <strong>${experience.position}</strong>, <em>${experience.date} </em>
       <${Nbsp} /><mark>${experience.tag}</mark>
     </dt>

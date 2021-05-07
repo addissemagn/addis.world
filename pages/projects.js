@@ -1,7 +1,7 @@
 import { html } from "/lib/preact.js";
 import Nav from "/components/Nav.js";
 import Footer from "/components/Footer.js";
-import { Header } from "/components/Misc.js";
+import { Header, TextWave } from "/components/Misc.js";
 import data from "/data/projects.js";
 
 const SectionProjects = () => {
@@ -46,7 +46,7 @@ const App = () =>
         <${Nav} />
         <${Header}
           heading=${data.header.title}
-          subheading=${data.header.desc}
+          subheading=${html`In my free time, I like to <${TextWave} text='wave' /> my wand and cast away newly discovered spells to build projects. Here are a few.`}
           img=${data.header.img}
         />
         <${SectionProjects} />
