@@ -1,15 +1,11 @@
 import { html } from "/lib/preact.js";
 import Nav from "/components/Nav.js";
+import Footer from "/components/Footer.js";
+import { Nbsp, Styled, TextWave } from "/components/Misc.js";
+import Contact from "/components/Contact.js";
 import data from "/data/home.js";
 
-const Styled = ({ text }) =>
-  html` <span dangerouslySetInnerHTML=${{ __html: text }} /> `;
-
-const Nbsp = () => html`<${Styled} text="&nbsp" />`;
-
-const TextWave = ({ text }) =>
-  html`${text.split("").map((c) => html`<span class="letter">${c}</span>`)}`;
-
+// Different styling than Header in "/components/Misc.js"
 const Header = ({ section }) =>
   html`
     <h2>${data.sections[section].title}</h2>
@@ -23,37 +19,13 @@ const List = ({ items }) =>
     </ul>
   `;
 
-const Experience = ({ experience }) =>
-  html`
-    <dt>
-      <strong> <a href="${experience.url}">${experience.company}</a> </strong>
-      , <strong>${experience.position}</strong>, <em>${experience.date} </em>
-      <${Nbsp} /><mark>${experience.tag}</mark>
-    </dt>
-    <dd><${Styled} text=${experience.desc} /></dd>
-  `;
-
-const Contact = ({ emailOff }) =>
-  html`
-    <section class="small">
-      ${!emailOff &&
-      html`<a href="mailto:${data.contact.email}">${data.contact.email}</a
-        ><br />`}
-      <a href=${data.contact.linkedin}>LinkedIn</a> <${Nbsp} />
-      <a href=${data.contact.github}>GitHub</a> <${Nbsp} />
-      <a href=${data.contact.twitter}>Twitter</a>
-      <br />
-      @addissemagn
-    </section>
-  `;
-
 const SectionIntro = () =>
   html`
     <section class="box">
       <h2 class="name">${data.sections.intro.name}</h2>
       <p>
-        Composing melodies from ones and zeroes and teaching computers how to
-        <${TextWave} text="dance" />.
+        Composing melodies from ones and zeroes and teaching computers
+        how to <${TextWave} text="dance" />.
       </p>
       <${Contact} />
     </section>
@@ -75,6 +47,16 @@ const SectionExperiences = () =>
     <dl class="experience-list">
       ${data.experiences.map((e) => html`<${Experience} experience=${e} />`)}
     </dl>
+  `;
+
+const Experience = ({ experience }) =>
+  html`
+    <dt>
+      <strong> <a href="${experience.url}">${experience.company}</a> </strong>
+      , <strong>${experience.position}</strong>, <em>${experience.date} </em>
+      <${Nbsp} /><mark>${experience.tag}</mark>
+    </dt>
+    <dd><${Styled} text=${experience.desc} /></dd>
   `;
 
 const SectionCallToAction = () => html` <${Header} section="callToAction" /> `;
@@ -99,9 +81,8 @@ const SectionAbout = () =>
 
       <p class="small">
         If you want to chat about any of these things, let's grab a virtual
-        coffee!
+        coffee (or tea if that's ya vibe).
       </p>
-      <${Contact} />
     </section>
   `;
 
@@ -115,6 +96,7 @@ const App = () =>
         <${SectionExperiences} />
         <${SectionCallToAction} />
         <${SectionAbout} />
+        <${Footer} />
       </main>
     </div>
   `;

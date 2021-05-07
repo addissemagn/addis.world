@@ -1,5 +1,5 @@
-import { html } from "https://unpkg.com/htm/preact/standalone.module.js";
-import data from '/data/components.js';
+import { html } from "/lib/preact.js";
+import data from "/data/components.js";
 
 const Nav = () =>
   html`

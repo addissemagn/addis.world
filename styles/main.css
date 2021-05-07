@@ -310,3 +310,17 @@ nav a::after {
 nav a:hover:after {
     background: #030303;
 }
+
+footer {
+    margin-top: 40px;
+}
+
+footer .left {
+    float: left;
+    max-width: calc(50% - 10px);
+}
+
+footer .right {
+    float: right;
+    max-width: calc(50% - 10px);
+}

@@ -1,6 +1,7 @@
-# addis.world
+# [addis.world](https://addis.world)
 
-built w/ [preact.js](https://preactjs.com) ♪٩(✿′ᗜ‵✿)۶♪
+built w/ [preact.js](https://preactjs.com), a super lightweight alternative to react.
+
 ```
 .
 ├── art                   # /art page entry point dir
@@ -26,4 +27,4 @@ import App from "/pages/art.js";
 render(html` <${App} /> `, document.body);
 ```
 * for structure, all the actual page logic is stored in the pages/ dir, i.e. create `pages/art.js`
-* for easy-editng, all the text/data/etc to display is stored in the data/ dir, i.e. create `data/art.js`
+* for easy-editing, most of the text/data/etc to display is stored in an object in data/ dir, i.e. create `data/art.js` (it's not a json to simplify things)

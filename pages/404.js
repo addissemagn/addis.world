@@ -1,20 +1,18 @@
 import { html } from "/lib/preact.js";
 import Nav from "/components/Nav.js";
-
-const Header = () =>
-  html`
-    <section class="mt-4">
-      <h2 class="name">ʕ •ᴥ•ʔ</h2>
-      <center><p>under constructionnn.</p></center>
-    </section>
-  `;
+import Footer from "/components/Footer.js";
+import { Header } from "/components/Misc.js"
 
 const App = () =>
   html`
     <div class="wrapper">
       <main>
         <${Nav} />
-        <${Header} />
+        <${Header}
+          heading="ʕ •ᴥ•ʔ"
+          subheading="under constructionnn."
+        />
+        <${Footer} />
       </main>
     </div>
   `;

@@ -21,12 +21,6 @@ const data = {
         "I'm always looking to meet people, whether to learn about each other, interesting topics, or exciting opportunities. Have something in mind? Drop me a note at <a href='mailto:asemagn@gmail.com'>asemagn@gmail.com</a>.",
     },
   },
-  contact: {
-    email: "asemagn@gmail.com",
-    linkedin: "https://linkedin.com/in/addissemagn",
-    github: "https://github.com/addissemagn",
-    twitter: "https://twitter.com/addissemagn"
-  },
   current: [
     "Software Engineer Intern at <strong>Microsoft</strong>",
     "Computer Engineering student at the <strong>University of Toronto</strong>",

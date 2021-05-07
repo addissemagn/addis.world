@@ -1,14 +1,7 @@
-import { html, render, Component } from "/lib/preact.js";
+import { html } from "/lib/preact.js";
 import Nav from '/components/Nav.js';
+import { Header } from "/components/Misc.js";
 import data from "/data/art.js";
-
-const Header = () =>
-  html`
-    <section class="mt-4">
-      <h2 class="name">${data.header.title}</h2>
-      <center><p>${data.header.desc}</p></center>
-    </section>
-  `;
 
 const SectionArt = () => {
   var resp = '';
@@ -42,7 +35,10 @@ const App = () =>
     <div class="wrapper">
       <main>
         <${Nav} />
-        <${Header} />
+        <${Header}
+          heading=${data.header.title}
+          subheading=${data.header.desc}
+        />
         <${SectionArt} />
       </main>
     </div>
