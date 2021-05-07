@@ -1,7 +1,7 @@
 import { html } from "/lib/preact.js";
 import Nav from "/components/Nav.js";
 import Footer from "/components/Footer.js";
-import { Header } from "/components/Misc.js"
+import { Header, Styled } from "/components/Misc.js"
 
 const App = ({ type }) => {
   const message = {
@@ -15,7 +15,7 @@ const App = ({ type }) => {
         <${Nav} />
         <${Header}
           heading="ʕ •ᴥ•ʔ"
-          subheading=${message[type]}
+          subheading=${html`<${Styled} text=${message[type]} />`}
         />
         <${Footer} />
       </main>

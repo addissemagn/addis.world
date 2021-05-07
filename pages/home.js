@@ -22,7 +22,7 @@ const List = ({ items }) =>
 const SectionIntro = () =>
   html`
     <section class="box">
-      <h2 class="name">${data.sections.intro.name}</h2>
+      <h1 class="name">${data.sections.intro.name}</h2>
       <p>
         Composing melodies from ones and zeroes and teaching computers
         how to <${TextWave} text="dance" />.

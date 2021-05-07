@@ -64,25 +64,11 @@ h1 {
     font-size: 1.625rem;
     font-weight: bold;
     line-height: 2.5rem;
-    margin-top: 1.5rem;
+    /* margin-top: 1.5rem; */
 }
 
 .name {
     font-size: 2rem;
-}
-
-@media screen and (min-width: 1024px) {
-    h1 {
-        font-size: 2.5rem;
-        line-height: 3rem;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    h1+p {
-        font-size: 2rem;
-        line-height: 2.5rem;
-    }
 }
 
 h2 {
