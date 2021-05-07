@@ -49,7 +49,7 @@ const data = {
       position: "Software Engineer Intern",
       date: "Fall 2020",
       desc:
-        "Scaled the operations portal web app and REST API for automating internal operations for travel financing services, implementing a system to manage sensitive customer data and a kill switch for point-of-sale.",
+        "Scaled the internal portal web app for automating operations for travel financing services, implementing REST API to manage sensitive customer data and a kill switch for point-of-sale.",
     },
     {
       company: "RelayPay",
@@ -57,7 +57,7 @@ const data = {
       position: "Software Engineer Intern",
       date: "Summer 2020",
       desc:
-        "Expanded the merchant-facing REST API to enable cryptocurrency payments for e-commerce, and owned the development of a dashboard for onboarding businesses and displaying meaningful financial metrics.",
+        "Expanded the merchant-facing REST API to enable cryptocurrency payments for e-commerce. Pioneered the development of the e-commerce dashboard.",
     },
     {
       company: "Shopify",

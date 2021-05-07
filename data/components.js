@@ -24,7 +24,7 @@ const data = {
       },
       {
         name: "Resume",
-        link: "/404",
+        link: "/coming-soon",
       },
     ],
     footer:

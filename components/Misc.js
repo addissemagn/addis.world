@@ -12,7 +12,7 @@ export const Header = ({ heading, subheading, img }) =>
   html`
     <section class="mt-4 header">
       <h2 class="name">${heading}</h2>
-      <center><p>${subheading}</p></center>
+      <center><p><${Styled} text=${subheading} /></p></center>
       ${img && (html`<center><img src=${img} /></center>`)}
     </section>
   `;

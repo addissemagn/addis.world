@@ -3,18 +3,24 @@ import Nav from "/components/Nav.js";
 import Footer from "/components/Footer.js";
 import { Header } from "/components/Misc.js"
 
-const App = () =>
-  html`
+const App = ({ type }) => {
+  const message = {
+    404: "this page does not exist. may I walk you back <a href='/'>home</a>?",
+    comingSoon: "under constructionnn. come back soon."
+  }
+
+  return html`
     <div class="wrapper">
       <main>
         <${Nav} />
         <${Header}
           heading="ʕ •ᴥ•ʔ"
-          subheading="under constructionnn. come back soon."
+          subheading=${message[type]}
         />
         <${Footer} />
       </main>
     </div>
   `;
+}
 
 export default App;
