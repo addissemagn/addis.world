@@ -3,6 +3,7 @@ import {
   render,
   Component,
 } from "https://unpkg.com/htm/preact/standalone.module.js";
+import Nav from '/components/Nav.js';
 import data from "/data/art.js";
 
 const Header = () =>
@@ -10,7 +11,6 @@ const Header = () =>
     <section class="mt-4">
       <h2 class="name">${data.header.title}</h2>
       <center><p>${data.header.desc}</p></center>
-      <center><a href="/">← Back to home</a></center>
     </section>
   `;
 
@@ -45,6 +45,7 @@ class App extends Component {
   render = () => html`
     <div class="wrapper">
       <main>
+        <${Nav} />
         <${Header} />
         <${SectionArt} />
       </main>

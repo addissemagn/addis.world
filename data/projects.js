@@ -3,7 +3,7 @@ const data = {
   header: {
     title: "Projects",
     desc:
-      "In my free time, I'm usually waving my wand and casting away newly discovered spells to build creative projects. Here are few!",
+      "I like to wave my wand and cast away newly discovered spells to build projects, here are a few.",
     img: "/assets/projects-harry-potter.gif"
   },
   projects: [
@@ -19,7 +19,7 @@ const data = {
       path: "/assets/projects-spotify.gif",
       stack: ["JavaScript", "CSS", "<a href='https://github.com/dragonman225/notablog'>Notablog</a>"],
       desc:
-        "This was version 23497 of my website (I've lost count) using Notion as the CMS. Archived for now but my personal favorite :)",
+        "This was version 23497 of my website (I've lost count), integrated with Notion as the CMS. Archived for now but my personal favorite :)",
     },
     {
       name: "SnapSaver",

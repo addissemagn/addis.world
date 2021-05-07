@@ -3,6 +3,7 @@ import {
   render,
   Component,
 } from "https://unpkg.com/htm/preact/standalone.module.js";
+import Nav from '/components/Nav.js';
 import data from "/data/home.js";
 
 const Styled = ({ text }) =>
@@ -59,12 +60,16 @@ const SectionIntro = () =>
 
 const SectionCurrent = () =>
   html`
-    <${Header} section="current" />
-    <${List} items=${data.current} />
+    <span id="current"></span>
+    <section>
+      <${Header} section="current" />
+      <${List} items=${data.current} />
+    </section>
   `;
 
 const SectionExperiences = () =>
   html`
+    <span id="experiences"></span>
     <${Header} section="experiences" />
     <dl class="experience-list">
       ${data.experiences.map((e) => html`<${Experience} experience=${e} />`)}
@@ -75,6 +80,7 @@ const SectionCallToAction = () => html` <${Header} section="callToAction" /> `;
 
 const SectionAbout = () =>
   html`
+    <span id="about"></span>
     <section class="box">
       <h2>About</h2>
       <center>
@@ -102,6 +108,7 @@ class App extends Component {
   render = () => html`
     <div class="wrapper">
       <main>
+        <${Nav} />
         <${SectionIntro} />
         <${SectionCurrent} />
         <${SectionExperiences} />

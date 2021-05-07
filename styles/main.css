@@ -271,3 +271,42 @@ main {
     height: 70px;
     width: auto;
 }
+
+nav .links {
+    top: 0;
+    right: 0;
+    position: fixed;
+    margin: 0px 20px;
+    z-index: 100;
+    text-align: right;
+
+    padding: 20px 0;
+}
+
+nav .logo {
+    top: 0;
+    left: 0;
+    position: fixed;
+    margin: 0px 0px;
+    z-index: 100;
+    font-weight: bold ;
+
+    /* White to transparent vertical gradient */
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+    padding: 20px 0 60px 0;
+    width: 100%;
+}
+
+nav a {
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+nav a::after {
+    background: none;
+}
+
+nav a:hover:after {
+    background: #030303;
+}
