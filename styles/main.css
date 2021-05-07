@@ -242,14 +242,32 @@ main {
     margin-top: 4rem;
 }
 
-.art p {
+.art p, .projects p {
     margin-top: 0.5rem;
     color: #aaa;
     font-size: 0.85rem;
     line-height: 1rem;
 }
 
+.projects .name {
+    margin-bottom: -0.1rem;
+    font-size: 0.95rem;
+}
+
+.projects .stack p{
+    margin: 0;
+}
+
+.ml-p5 {
+    padding-left: 0.5rem;
+}
+
 .small {
     font-size: 0.85rem;
     line-height: 1rem;
+}
+
+.header img {
+    height: 70px;
+    width: auto;
 }
