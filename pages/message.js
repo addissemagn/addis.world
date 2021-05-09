@@ -14,7 +14,7 @@ const App = ({ type }) => {
       <main>
         <${Nav} />
         <${Header}
-          heading="ʕ •ᴥ•ʔ"
+          heading="ʕ•ᴥ•ʔ"
           subheading=${html`<${Styled} text=${message[type]} />`}
         />
         <${Footer} />
