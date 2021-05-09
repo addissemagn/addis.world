@@ -315,6 +315,10 @@ main {
     color: var(--text-primary);
 }
 
+.projects .name a:after {
+    display: none;
+}
+
 .projects .stack p{
     margin: 0;
 }

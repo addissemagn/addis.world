@@ -5,8 +5,9 @@ const data = {
   },
   projects: [
     {
-      name: "Yeshi Social Cookbook",
+      name: "Yeshi Social Cookbook Manager",
       img: "projects-yeshi.gif",
+      github: "https://github.com/addissemagn/yeshi",
       stack: [
         "React",
         "Node.js/Express.js REST API",
@@ -17,11 +18,12 @@ const data = {
         "Netlify serverless functions",
       ],
       desc:
-        "A social cookbook manager. <strong>Motivation</strong>: I made this for my families to share our home recipes. <strong>Features</strong>: upload and convert handwritten recipes to text, create and share cookbooks with user permissions, add images, track items you have in stock, add recipe to grocery list to auto update ingredients you're missing.",
+        "<strong>Motivation</strong>: make it easier for my families to collect, share, plan, and cook our home recipes. <strong>Features</strong>: upload and convert handwritten recipes to text, create and share cookbooks with user permissions, add images, track items you have in stock, and add recipes to grocery list to auto update ingredients you're missing.",
     },
     {
       name: "ChainReact",
       img: "projects-chainreact.gif",
+      github: "https://github.com/addissemagn/chain-reaction-cch2019",
       stack: [
         "Python",
         "TypeScript",
@@ -33,6 +35,7 @@ const data = {
     {
       name: "SnapSaver",
       img: "projects-snapsaver.jpg",
+      github: "https://github.com/addissemagn/snapsaver",
       stack: ["Python", "Flask", "AWS EC2", "SMTP for emails"],
       desc:
         "Simple web and CLI tool to bulk download your Snapchat Memories. <strong>Motivation</strong>: Snapchat makes you download your media one by one. As there's no tool to mass download them, I built one. <strong>Features</strong>: resuming download, file and ZIP handling, optionally receiving email with ZIP once complete.",
@@ -40,6 +43,7 @@ const data = {
     {
       name: "UofT Cannonball Website",
       img: "projects-cannonball.gif",
+      github: "https://github.com/addissemagn/cannonball",
       stack: [
         "React",
         "Node.js/Express.js REST API",
@@ -61,6 +65,7 @@ const data = {
     {
       name: "Othello AI",
       img: "projects-othello.gif",
+      github: "https://github.com/addissemagn/othello-ai",
       stack: ["Python"],
       desc:
         "Othello game-playing AI. Made using minimax with iterative deepening depth-first search and alpha-beta pruning algorithms.",
@@ -78,19 +83,19 @@ const data = {
       desc:
         "Explore the depth of internet knowledge, one randomly generated TED Talk or article at a time.",
     },
-    {
-      name: "GIS Mapping Desktop App",
-      img: "projects-mapper.gif",
-      stack: ["C++", "EZGL UI", "OpenStreetMap data"],
-      desc:
-        "GIS city mapping application, implementing pathfinding algorithm based on A* Search and Dijkstra’s algorithms.",
-    },
-    {
-      name: "Weather Genie",
-      img: "projects-weather.jpg",
-      stack: ["React", "JavaScript", "Meteostat API", "Unsplash API"],
-      desc: "Compare weather across cities.",
-    },
+    // {
+    //   name: "GIS Mapping Desktop App",
+    //   img: "projects-mapper.gif",
+    //   stack: ["C++", "EZGL UI", "OpenStreetMap data"],
+    //   desc:
+    //     "GIS city mapping application, implementing pathfinding algorithm based on A* Search and Dijkstra’s algorithms.",
+    // },
+    // {
+    //   name: "Weather Genie",
+    //   img: "projects-weather.jpg",
+    //   stack: ["React", "JavaScript", "Meteostat API", "Unsplash API"],
+    //   desc: "Compare weather across cities.",
+    // },
     // {
     //   name: "Hangry UofT",
     //   img: "projects-hangry.gif",
