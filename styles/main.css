@@ -380,9 +380,9 @@ nav .links a {
 }
 
 nav .logo a:hover {
-    /* margin-top: -2px; */
-    background: var(--highlight-color);
-    color: var(--link-text)
+    margin-top: -2px;
+    /* background: var(--highlight-color); */
+    /* color: var(--link-text) */
 }
 
 nav .links a:hover:after {
