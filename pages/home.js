@@ -54,7 +54,7 @@ const Experience = ({ experience }) =>
     <dt>
       <strong> <a href="${experience.url}">${experience.company}</a></strong>
       , <strong>${experience.position}</strong>, <em>${experience.date} </em>
-      <${Nbsp} /><mark>${experience.tag}</mark>
+      ${experience.tag && html`<${Nbsp} /><mark>${experience.tag}</mark>`}
     </dt>
     <dd><${Styled} text=${experience.desc} /></dd>
   `;
@@ -92,10 +92,12 @@ const App = () =>
       <main>
         <${Nav} />
         <${SectionIntro} />
-        <${SectionCurrent} />
-        <${SectionExperiences} />
-        <${SectionCallToAction} />
-        <${SectionAbout} />
+        <section class="home">
+          <${SectionCurrent} />
+          <${SectionExperiences} />
+          <${SectionCallToAction} />
+          <${SectionAbout} />
+        </section>
         <${Footer} />
       </main>
     </div>

@@ -7,23 +7,22 @@ const data = {
     },
     current: {
       title: "What I do",
-      desc:
-        "I love the process of imagining better futures and coding them into existence. Currently, I do this as a:",
+      // desc: "(Kindly) tell computers what to do as a:",
     },
     experiences: {
       title: "What I've done",
       desc:
-        "I've shipped end-to-end products in backend, full-stack, and infrastructure engineering roles at companies of all sizes. I'll be graduating in Spring 2022 with 20 months of internship experience.",
+        "I love the process of imagining better futures and coding them into existence. I've shipped end-to-end products in backend, full-stack, and infrastructure roles at companies of all sizes.",
     },
     callToAction: {
       title: "What can we do together?",
       desc:
-        "I'm always looking to meet people, whether to learn about each other, interesting topics, or exciting opportunities. Have something in mind? Drop me a note at <a href='mailto:asemagn@gmail.com'>asemagn@gmail.com</a>.",
+        "I'm always looking to meet people, whether to learn about each other, interesting topics, or exciting opportunities. Have something in mind? Drop me a note <a href='mailto:asemagn@gmail.com'>asemagn@gmail.com</a>.",
     },
   },
   current: [
-    "Software Engineer Intern at <strong>Microsoft</strong>",
-    "Computer Engineering student at the <strong>University of Toronto</strong>",
+    "Software Engineering at <a href='https://microsoft.com'><strong>Microsoft</strong></a>",
+    "Computer Engineering '22 at the <a href='https://www.engineering.utoronto.ca'><strong>University of Toronto</strong></a>",
   ],
   experiences: [
     {
@@ -57,7 +56,7 @@ const data = {
       position: "Software Engineer Intern",
       date: "Summer 2020",
       desc:
-        "Expanded the merchant-facing REST API to enable cryptocurrency payments for e-commerce. Pioneered the development of the e-commerce dashboard.",
+        "Pioneered the full-stack development of the e-commerce dashboard for businesses to accept cryptocurrency payments. Wore many hats, including deploying an internal mail server saving $3.6K annually and setting up the first log monitoring."
     },
     {
       company: "Shopify",
@@ -74,7 +73,7 @@ const data = {
       "<strong>addis.world</strong> comes from my full name, Addisalem አዲስ ዓለም, which in Amharic means new (addis) world (alem).",
       "I'm from Addis Ababa, Ethiopia and have been calling Toronto home since 2013. Though I've lived in 5 countries, my fluencies in computer languages far outnumber my spoken ones.",
       "I first learned to code in my first-year intro to C course. My endless curiosity met with this new power to make led to many late nights of tinkering and a passion was born (this is starting to sound like a romance). I'm immensely grateful to also do this for a living.",
-      "Ultimately, I'm driven by relationships, experiences, and growth. The empowerment that tech and the wonderful people I've met through it have given me is something I want to continuously share. To build software that enables people to take control of their lives. To help make tech more accessible to underrepresented groups. To learn exciting things and share that excitement with others. To live a life generous in giving.",
+      "Ultimately, I'm driven by relationships, experiences, and growth. The empowerment that tech and the wonderful people I've met through it have given me is something I want to continuously share. To build software that enables people to take control of their lives. To make tech more accessible to underrepresented communities. To learn exciting things and share that excitement with others. To live a life generous in giving.",
     ],
     interests: [
       "Collecting hobbies. Lately, I've gotten back into writing songs and playing electric guitar, and been <strike>taking L's</strike> learning how to skateboard. I also like <a href='/art'>making art</a>, though I do a lot less of that these days.",
