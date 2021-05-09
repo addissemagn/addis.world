@@ -46,7 +46,7 @@ const App = () =>
         <${Nav} />
         <${Header}
           heading=${data.header.title}
-          subheading=${html`In my free time, I like to <${TextWave} text='wave' /> my wand and cast away newly discovered spells to build projects. Here are a few.`}
+          subheading=${html`I like to <${TextWave} text='wave' /> my wand and cast away newly discovered <strike>technologies</strike> spells to build projects. Here are a few.`}
           img=${data.header.img_path}
         />
         <${SectionProjects} />
