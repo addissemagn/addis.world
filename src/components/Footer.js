@@ -1,7 +1,7 @@
-import { html } from "/lib/preact.js";
-import Contact from "/components/Contact.js";
-import { Styled } from "/components/Misc.js";
-import data from "/data/components.js";
+import { html } from "/src/lib/preact.js";
+import Contact from "/src/components/Contact.js";
+import { Styled } from "/src/components/Misc.js";
+import data from "/src/data/components.js";
 
 const Footer = () =>
   html`

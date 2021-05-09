@@ -1,4 +1,4 @@
-import { html } from "/lib/preact.js";
+import { html } from "/src/lib/preact.js";
 
 export const Nbsp = () => html`<${Styled} text="&nbsp" />`;
 

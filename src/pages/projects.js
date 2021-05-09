@@ -1,8 +1,8 @@
-import { html } from "/lib/preact.js";
-import Nav from "/components/Nav.js";
-import Footer from "/components/Footer.js";
-import { Header, TextWave } from "/components/Misc.js";
-import data from "/data/projects.js";
+import { html } from "../lib/preact.js";
+import Nav from "../components/Nav.js";
+import Footer from "../components/Footer.js";
+import { Header, TextWave } from "../components/Misc.js";
+import data from "../data/projects.js";
 
 const SectionProjects = () => {
   var resp = "";
@@ -10,7 +10,7 @@ const SectionProjects = () => {
 
   data.projects.forEach((proj, index) => {
     row += `<section class="box">
-      <img src=${proj.path} />
+      <img src="/src/assets/${proj.img}" />
       <p class="name"><strong>${proj.name}</strong></p>
       <p>${proj.desc}</p>
       <div class="stack">
@@ -47,7 +47,7 @@ const App = () =>
         <${Header}
           heading=${data.header.title}
           subheading=${html`In my free time, I like to <${TextWave} text='wave' /> my wand and cast away newly discovered spells to build projects. Here are a few.`}
-          img=${data.header.img}
+          img=${data.header.img_path}
         />
         <${SectionProjects} />
         <${Footer} />

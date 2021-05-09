@@ -1,8 +1,8 @@
-import { html } from "/lib/preact.js";
-import Nav from '/components/Nav.js';
-import Footer from '/components/Footer.js';
-import { Header } from "/components/Misc.js";
-import data from "/data/art.js";
+import { html } from "../lib/preact.js";
+import Nav from "../components/Nav.js";
+import Footer from '../components/Footer.js';
+import { Header } from "../components/Misc.js";
+import data from "../data/art.js";
 
 const SectionArt = () => {
   var resp = '';
@@ -10,7 +10,7 @@ const SectionArt = () => {
 
   data.art.forEach((piece, index) => {
     row += `<section class="box">
-      <img src=${piece.path} />
+      <img src="/src/assets/${piece.img}" />
       <p>${piece.desc}</p>
     </section>`;
 

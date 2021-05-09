@@ -1,9 +1,9 @@
-import { html } from "/lib/preact.js";
-import Nav from "/components/Nav.js";
-import Footer from "/components/Footer.js";
-import { Nbsp, Styled, TextWave } from "/components/Misc.js";
-import Contact from "/components/Contact.js";
-import data from "/data/home.js";
+import { html } from "../lib/preact.js";
+import Nav from "../components/Nav.js";
+import Footer from "../components/Footer.js";
+import { Nbsp, Styled, TextWave } from "../components/Misc.js";
+import Contact from "../components/Contact.js";
+import data from "../data/home.js";
 
 // Different styling than Header in "/components/Misc.js"
 const Header = ({ section }) =>
@@ -67,7 +67,7 @@ const SectionAbout = () =>
     <section class="box">
       <h2>About</h2>
       <center>
-        <img class="me" src="assets/me.jpg" />
+        <img class="me" src="/src/assets/me.jpg" />
         <p class="small">5'4"; 5'8" on a good afro day :)</p>
       </center>
 

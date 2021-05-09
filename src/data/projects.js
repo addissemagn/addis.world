@@ -3,12 +3,12 @@ const data = {
     title: "Projects",
     desc:
       "In my free time, I like to <TextWave text='wave' /> my wand and cast away newly discovered spells to build projects. Here are a few.",
-    img: "/assets/projects-harry-potter.gif",
+    img_path: "/src/assets/projects-harry-potter.gif",
   },
   projects: [
     {
       name: "Yeshi Social Cookbook",
-      path: "/assets/projects-yeshi.gif",
+      img: "projects-yeshi.gif",
       stack: [
         "React",
         "Node.js/Express.js REST API",
@@ -23,7 +23,7 @@ const data = {
     },
     {
       name: "ChainReact",
-      path: "/assets/projects-chainreact.gif",
+      img: "projects-chainreact.gif",
       stack: [
         "Python",
         "TypeScript",
@@ -34,14 +34,14 @@ const data = {
     },
     {
       name: "SnapSaver",
-      path: "/assets/projects-snapsaver.jpg",
+      img: "projects-snapsaver.jpg",
       stack: ["Python", "Flask", "AWS EC2", "SMTP for emails"],
       desc:
         "Simple web and CLI tool to bulk download your Snapchat Memories. <strong>Motivation</strong>: Snapchat makes you download your media one by one. As there's no tool to mass download them, I built one. <strong>Features</strong>: resuming download, file and ZIP handling, optionally receiving email with ZIP once complete.",
     },
     {
       name: "UofT Cannonball Website",
-      path: "/assets/projects-cannonball.gif",
+      img: "projects-cannonball.gif",
       stack: [
         "React",
         "Node.js/Express.js REST API",
@@ -56,53 +56,53 @@ const data = {
     },
     {
       name: "UofT Locker Rental",
-      path: "/assets/projects-lockers.png",
+      img: "projects-lockers.png",
       stack: ["MySQL", "PHP (limited Apache servers, what can ya do)", "Material UI", "JavaScript"],
       desc: "Locker rental booking website for the University of Toronto Engineering Society, overhauling previous system. <strong>Features</strong>: user registration + login, booking system, user dashboard for managing profile and locker status, and admin dashboard for managing students, lockers, booking approval, and admin permissions.",
     },
     {
       name: "Othello AI",
-      path: "/assets/projects-othello.gif",
+      img: "projects-othello.gif",
       stack: ["Python"],
       desc:
         "Othello game-playing AI. Made using minimax with iterative deepening depth-first search and alpha-beta pruning algorithms.",
     },
     {
       name: "Rubik",
-      path: "/assets/projects-rubik.jpg",
+      img: "projects-rubik.jpg",
       stack: ["JavaScript", "<a href='https://threejs.org'>Three.js</a> for 3D graphics", "jQuery"],
       desc: "Interactive 3D rubik's cube with built-in solver.",
     },
     {
       name: "Educate Me",
-      path: "/assets/projects-educate.jpg",
+      img: "projects-educate.jpg",
       stack: ["JavaScript", "Node.js for web crawling"],
       desc:
         "Explore the depth of internet knowledge, one randomly generated TED Talk or article at a time.",
     },
     {
       name: "GIS Mapping Desktop App",
-      path: "/assets/projects-mapper.gif",
+      img: "projects-mapper.gif",
       stack: ["C++", "EZGL UI", "OpenStreetMap data"],
       desc:
         "GIS city mapping application, implementing pathfinding algorithm based on A* Search and Dijkstra’s algorithms.",
     },
     {
       name: "Weather Genie",
-      path: "/assets/projects-weather.jpg",
+      img: "projects-weather.jpg",
       stack: ["React", "JavaScript", "Meteostat API", "Unsplash API"],
       desc: "Compare weather across cities.",
     },
     // {
     //   name: "Hangry UofT",
-    //   path: "/assets/projects-hangry.gif",
+    //   img: "projects-hangry.gif",
     //   stack: ["JavaScript", "MySQL", "Google Maps API", "CSS"],
     //   desc:
     //     "A Yelp-style website of all dining options at University of Toronto St. George.",
     // },
     {
       name: "Spotify-themed Personal Website",
-      path: "/assets/projects-spotify.gif",
+      img: "projects-spotify.gif",
       stack: [
         "JavaScript",
         "CSS",
@@ -113,7 +113,7 @@ const data = {
     },
     {
       name: "Yet Another Personal Website",
-      path: "/assets/projects-personal-vue.png",
+      img: "projects-personal-vue.png",
       stack: [
         "Vue",
         "JavaScript",

@@ -1,7 +1,7 @@
-import { html } from "/lib/preact.js";
-import Nav from "/components/Nav.js";
-import Footer from "/components/Footer.js";
-import { Header, Styled } from "/components/Misc.js"
+import { html } from "../lib/preact.js";
+import Nav from "../components/Nav.js";
+import Footer from "../components/Footer.js";
+import { Header, Styled } from "../components/Misc.js"
 
 const App = ({ type }) => {
   const message = {

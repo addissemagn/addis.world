@@ -1,6 +1,6 @@
-import { html } from "/lib/preact.js"
-import { Nbsp } from "/components/Misc.js";
-import data from "/data/components.js";
+import { html } from "/src/lib/preact.js"
+import { Nbsp } from "/src/components/Misc.js";
+import data from "/src/data/components.js";
 
 const Contact = ({ emailOff }) =>
   html`

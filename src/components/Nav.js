@@ -1,5 +1,5 @@
-import { html } from "/lib/preact.js";
-import data from "/data/components.js";
+import { html } from "/src/lib/preact.js";
+import data from "/src/data/components.js";
 
 // Set theme on page load
 (function() {
