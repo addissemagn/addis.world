@@ -10,7 +10,7 @@ const SectionArt = () => {
 
   data.art.forEach((piece, index) => {
     row += `<section class="box">
-      <img src="/src/assets/${piece.img}" />
+      <img src="${data.meta.img_dir}${piece.img}" />
       <p>${piece.desc}</p>
     </section>`;
 

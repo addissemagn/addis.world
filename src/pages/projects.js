@@ -10,7 +10,7 @@ const SectionProjects = () => {
 
   data.projects.forEach((proj, index) => {
     row += `<section class="box">
-      <img src="/src/assets/${proj.img}" />
+      <img src="${data.meta.img_dir}${proj.img}" />
       <p class="name">
         <strong>${proj.name}</strong>
         ${proj.github ? ("<a href=${proj.github}><i class='fab fa-github'></i></a>") : ""}

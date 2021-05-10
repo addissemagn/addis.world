@@ -13,11 +13,12 @@
     --selection-background: #030303;
     --selection-text: #fff;
 
-    --highlight-color: yellow;
+    --highlight-color: #e5e5e5;
     --box-shadow: rgba(0, 0, 0, 0.18);
     --box-background: var(--background-color);
 
-    --link-background: #e5e5e5;
+    /* --link-background: #e5e5e5; */
+    --link-background: #FDF3C5;
     --link-text: var(--text-primary);
 }
 
@@ -103,6 +104,10 @@ h1 {
 
 .name {
     font-size: 2rem;
+}
+
+.pronounce {
+    color: var(--text-secondary);
 }
 
 h2 {

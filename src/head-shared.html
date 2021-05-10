@@ -16,3 +16,8 @@
 <script src="/src/components/analytics.js"></script>
 <!-- Font awesome load all styles-->
 <script src="/src/lib/font-awesome.js"></script>
+<script>
+    // Set theme on page load
+    const currTheme = localStorage.getItem("theme") || "light";
+    document.documentElement.setAttribute("data-theme", currTheme);
+</script>

@@ -1,12 +1,15 @@
 const data = {
+  meta: {
+    img_dir: "/src/assets/projects/"
+  },
   header: {
     title: "Projects",
-    img_path: "/src/assets/projects-harry-potter.gif",
+    img_path: "/src/assets/projects/harry-potter.gif",
   },
   projects: [
     {
       name: "Yeshi Social Cookbook Manager",
-      img: "projects-yeshi.gif",
+      img: "yeshi.gif",
       github: "https://github.com/addissemagn/yeshi",
       stack: [
         "React",
@@ -22,7 +25,7 @@ const data = {
     },
     {
       name: "ChainReact",
-      img: "projects-chainreact.gif",
+      img: "chainreact.gif",
       github: "https://github.com/addissemagn/chain-reaction-cch2019",
       stack: [
         "Python",
@@ -34,7 +37,7 @@ const data = {
     },
     {
       name: "SnapSaver",
-      img: "projects-snapsaver.jpg",
+      img: "snapsaver.jpg",
       github: "https://github.com/addissemagn/snapsaver",
       stack: ["Python", "Flask", "AWS EC2", "SMTP for emails"],
       desc:
@@ -42,7 +45,7 @@ const data = {
     },
     {
       name: "UofT Cannonball Website",
-      img: "projects-cannonball.gif",
+      img: "cannonball.gif",
       github: "https://github.com/addissemagn/cannonball",
       stack: [
         "React",
@@ -58,13 +61,13 @@ const data = {
     },
     {
       name: "UofT Locker Rental",
-      img: "projects-lockers.png",
+      img: "lockers.png",
       stack: ["MySQL", "PHP (limited Apache servers, what can ya do)", "Material UI", "JavaScript"],
       desc: "Locker rental booking website for the University of Toronto Engineering Society, overhauling previous system. <strong>Features</strong>: user registration + login, booking system, user dashboard for managing profile and locker status, and admin dashboard for managing students, lockers, booking approval, and admin permissions.",
     },
     {
       name: "Othello AI",
-      img: "projects-othello.gif",
+      img: "othello.gif",
       github: "https://github.com/addissemagn/othello-ai",
       stack: ["Python"],
       desc:
@@ -72,40 +75,40 @@ const data = {
     },
     {
       name: "Rubik",
-      img: "projects-rubik.jpg",
+      img: "rubik.jpg",
       stack: ["JavaScript", "<a href='https://threejs.org'>Three.js</a> for 3D graphics", "jQuery"],
       desc: "Interactive 3D rubik's cube with built-in solver.",
     },
     {
       name: "Educate Me",
-      img: "projects-educate.jpg",
+      img: "educate.jpg",
       stack: ["JavaScript", "Node.js for web crawling"],
       desc:
         "Explore the depth of internet knowledge, one randomly generated TED Talk or article at a time.",
     },
     // {
     //   name: "GIS Mapping Desktop App",
-    //   img: "projects-mapper.gif",
+    //   img: "mapper.gif",
     //   stack: ["C++", "EZGL UI", "OpenStreetMap data"],
     //   desc:
     //     "GIS city mapping application, implementing pathfinding algorithm based on A* Search and Dijkstra’s algorithms.",
     // },
     // {
     //   name: "Weather Genie",
-    //   img: "projects-weather.jpg",
+    //   img: "weather.jpg",
     //   stack: ["React", "JavaScript", "Meteostat API", "Unsplash API"],
     //   desc: "Compare weather across cities.",
     // },
     // {
     //   name: "Hangry UofT",
-    //   img: "projects-hangry.gif",
+    //   img: "hangry.gif",
     //   stack: ["JavaScript", "MySQL", "Google Maps API", "CSS"],
     //   desc:
     //     "A Yelp-style website of all dining options at University of Toronto St. George.",
     // },
     {
       name: "Spotify-themed Personal Website",
-      img: "projects-spotify.gif",
+      img: "spotify.gif",
       stack: [
         "JavaScript",
         "CSS",
@@ -116,7 +119,7 @@ const data = {
     },
     {
       name: "Yet Another Personal Website",
-      img: "projects-personal-vue.png",
+      img: "personal-vue.png",
       stack: [
         "Vue",
         "JavaScript",

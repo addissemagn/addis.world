@@ -17,7 +17,7 @@ const data = {
     callToAction: {
       title: "What can we do together?",
       desc:
-        "I'm always looking to meet people, whether to learn about each other, interesting topics, or exciting opportunities. Have something in mind? Drop me a note <a href='mailto:asemagn@gmail.com'>asemagn@gmail.com</a>.",
+        "I'm always looking to meet people, whether to learn about each other, interesting topics, or exciting opportunities. Have something in mind? Drop me a note asemagn@gmail.com.",
     },
   },
   current: [
@@ -70,7 +70,7 @@ const data = {
   // Each string represents a line break
   about: {
     bio: [
-      "<strong>addis.world</strong> comes from my full name, Addisalem አዲስ ዓለም, which in Amharic means new (addis) world (alem).",
+      // "First sentence embedded in /src/pages/home.js",
       "I'm from Addis Ababa, Ethiopia and have been calling Toronto home since 2013. Though I've lived in 5 countries, my fluencies in computer languages far outnumber my spoken ones.",
       "I first learned to code in my first-year intro to C course. My endless curiosity met with this new power to make led to many late nights of tinkering and a passion was born (this is starting to sound like a romance). I'm immensely grateful to also do this for a living.",
       "Ultimately, I'm driven by relationships, experiences, and growth. The empowerment that tech and the wonderful people I've met through it have given me is something I want to continuously share. To build software that enables people to take control of their lives. To make tech more accessible to underrepresented communities. To learn exciting things and share that excitement with others. To live a life generous in giving.",

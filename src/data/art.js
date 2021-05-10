@@ -1,39 +1,42 @@
 const data = {
+  meta: {
+    img_dir: "/src/assets/art/"
+  },
   header: {
     title: "Art",
     desc: "A random assortment of things I’ve made and could find pics of.",
   },
   art: [
     {
-      img: "art-syrian.jpg",
+      img: "syrian.jpg",
       desc:
         "War on children, tribute to this <a href='https://imgur.com/gallery/6HBND'>this Syrian girl</a>. Spray paint on plastic.",
     },
     {
-      img: "art-bella.jpg",
+      img: "bella.jpg",
       desc: "My friend :) Charcoal on brown paper.",
     },
     {
-      img: "art-cole.jpg",
+      img: "cole.jpg",
       desc: "J. Cole, made using thousands of my signatures.",
     },
     {
-      img: "art-bath.jpg",
+      img: "bath.jpg",
       desc:
         "Made this digitally using the Fresh Paint app. The app is surprisingly pretty good in terms of look and manipulation of paint. Very fun.",
     },
     {
-      img: "art-killmonger.jpg",
+      img: "killmonger.jpg",
       desc:
         "Killmonger! Another one on Fresh Paint. Tried to be ~artsy~ with that yellow. Having the app on my touch screen laptop was a recipe for lecture distraction.",
     },
     {
-      img: "art-crayon.jpg",
+      img: "crayon.jpg",
       desc:
         "BLM tribute. Random backstory — I used to work as a birthday party hostess and we had a lot of crayons laying around so I started carving them with toothpicks. Came in handy when my art class prompt was something micro. You'd be surprised how character building trying to carve a chain out of a crayon can be.",
     },
     {
-      img: "art-princess.jpg",
+      img: "princess.jpg",
       desc:
         "First oil painting. It's clear what parts I just tried to wing. I, too, don't know what she's doing with her hands.",
     },
