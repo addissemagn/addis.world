@@ -1,18 +1,22 @@
-import { html } from "/src/lib/preact.js";
+export const Styled = ({ text }) => (
+  <span dangerouslySetInnerHTML={{ __html: text }} />
+);
 
-export const Nbsp = () => html`<${Styled} text="&nbsp" />`;
-
-export const Styled = ({ text }) =>
-  html` <span dangerouslySetInnerHTML=${{ __html: text }} /> `;
+export const Nbsp = () => <Styled text="&nbsp" />;
 
 export const TextWave = ({ text }) =>
-  html`${text.split("").map((c) => html`<span class="letter">${c}</span>`)}`;
+  text.split("").map((c) => <span class="letter">{c}</span>);
 
-export const Header = ({ heading, subheading, img }) =>
-  html`
-    <section class="mt-4 header">
-      <h1 class="name">${heading}</h2>
-      <center><p>${subheading}</p></center>
-      ${img && (html`<center><img src=${img} /></center>`)}
-    </section>
-  `;
+export const Header = ({ heading, subheading, img }) => (
+  <section class="mt-4 header">
+    <h1 class="name">{heading}</h1>
+    <center>
+      <p>{subheading}</p>
+    </center>
+    {img && (
+      <center>
+        <img src={img} />
+      </center>
+    )}
+  </section>
+);

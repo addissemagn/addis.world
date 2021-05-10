@@ -1,6 +1,6 @@
 const data = {
   meta: {
-    img_dir: "/src/assets/art/"
+    img_dir: "/assets/art/"
   },
   header: {
     title: "Art",

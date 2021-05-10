@@ -1,4 +1,3 @@
-import { html } from "../lib/preact.js";
 import Nav from "../components/Nav.js";
 import Footer from "../components/Footer.js";
 import { Header, TextWave } from "../components/Misc.js";
@@ -13,7 +12,11 @@ const SectionProjects = () => {
       <img src="${data.meta.img_dir}${proj.img}" />
       <p class="name">
         <strong>${proj.name}</strong>
-        ${proj.github ? ("<a href=${proj.github}><i class='fab fa-github'></i></a>") : ""}
+        ${
+          proj.github
+            ? `<a href=${proj.github}><i class='fab fa-github'></i></a>`
+            : ""
+        }
       </p>
       <p>${proj.desc}</p>
       <div class="stack">
@@ -36,26 +39,28 @@ const SectionProjects = () => {
     row = "";
   }
 
-  return html`<div
-    class="projects"
-    dangerouslySetInnerHTML=${{ __html: resp }}
-  />`;
+  return <div class="projects" dangerouslySetInnerHTML={{ __html: resp }} />;
 };
 
-const App = () =>
-  html`
-    <div class="wrapper">
-      <main>
-        <${Nav} />
-        <${Header}
-          heading=${data.header.title}
-          subheading=${html`I like to <${TextWave} text='wave' /> my wand and cast away newly discovered <strike>technologies</strike> spells to build projects. Here are a few.`}
-          img=${data.header.img_path}
-        />
-        <${SectionProjects} />
-        <${Footer} />
-      </main>
-    </div>
-  `;
+const App = () => (
+  <div class="wrapper">
+    <main>
+      <Nav />
+      <Header
+        heading={data.header.title}
+        subheading={
+          <>
+            I like to <TextWave text="wave" /> my wand and cast away newly
+            discovered <strike>technologies</strike> spells to build projects.
+            Here are a few.
+          </>
+        }
+        img={data.header.img_path}
+      />
+      <SectionProjects />
+      <Footer />
+    </main>
+  </div>
+);
 
 export default App;
