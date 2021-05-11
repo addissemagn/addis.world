@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Addis Semagn</title>
+    <!-- Metadata -->
+    <meta content="Addis Semagn — Software Developer" property="og:title" />
+    <meta name="description" content="Hi, I'm Addis; a software developer studying Computer Engineering at the University of Toronto.">
+    <meta property="og:description" content="Hi, I'm Addis; a software developer studying Computer Engineering at the University of Toronto. Currently based in Toronto, Canada." />
+    <meta property="og:url" content="http://addis.world" />
+    <meta property="og:image" content="assets/favicons/preview.png" />
+    <meta name="author" content="Addis Semagn">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="assets/styles/index.css" />
+    <link rel="stylesheet" href="assets/styles/text-wave.css" />
+    <link rel="stylesheet" href="assets/styles/toggle-switch.css" />
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
+    <!-- SCRIPTS -->
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <!-- Set light/dark theme -->
+    <script>
+        const currTheme = localStorage.getItem("theme") || "light";
+        document.documentElement.setAttribute("data-theme", currTheme);
+    </script>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0MLGZSQWQW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "G-0MLGZSQWQW");
+    </script>
+
+    <% preact.headEnd %>
+</head>
+
+<body>
+    <% preact.bodyEnd %>
+</body>
+
+</html>

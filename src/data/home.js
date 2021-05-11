@@ -4,6 +4,7 @@ const data = {
       name: "Addis Semagn",
       desc:
         "Composing melodies from ones and zeroes and teaching computers how to <span className='text-wave'>dance</span>.",
+      // sub: "<span class='small'>Is your company hiring? You should consider <a>these amazing developers</a>.</span>"
     },
     current: {
       title: "What I do",
@@ -32,7 +33,7 @@ const data = {
       date: "Summer 2021",
       tag: "Current",
       desc:
-        "Designing, developing, and shipping a new Microsoft product offering in 13 weeks.",
+        "Developing and shipping a new Microsoft product offering in 13 weeks.",
     },
     {
       company: "Cash App, Square",
@@ -48,7 +49,7 @@ const data = {
       position: "Software Engineer Intern",
       date: "Fall 2020",
       desc:
-        "Scaled the internal portal web app for automating operations for travel financing services, implementing REST API to manage sensitive customer data and a kill switch for point-of-sale.",
+        "Scaled the operations web app for travel financing services, implementing system to manage sensitive customer data and a kill switch for point-of-sale.",
     },
     {
       company: "RelayPay",
@@ -56,7 +57,7 @@ const data = {
       position: "Software Engineer Intern",
       date: "Summer 2020",
       desc:
-        "Pioneered the full-stack development of the e-commerce dashboard for businesses to accept cryptocurrency payments. Wore many hats, including deploying an internal mail server saving $3.6K annually and setting up the first log monitoring."
+        "Pioneered the development of the e-commerce dashboard + expanded the merchant-facing API for businesses to accept cryptocurrency payments. Wore many hats, including deploying an internal mail server saving $3.6K annually and configuring the first log monitoring."
     },
     {
       company: "Shopify",
@@ -77,7 +78,7 @@ const data = {
     ],
     interests: [
       "Collecting hobbies. Lately, I've gotten back into writing songs and playing electric guitar, and been <strike>taking L's</strike> learning how to skateboard. I also like <a href='/art'>making art</a>, though I do a lot less of that these days.",
-      "Discovering music ♪٩(✿′ᗜ‵✿)۶♪ and making <a href='https://open.spotify.com/user/heyaddis'>Spotify playlists</a>.",
+      "Discovering music ♪٩(✿′ᗜ‵✿)۶♪ and making <Link href='https://open.spotify.com/user/heyaddis'>Spotify playlists</Link>.",
       "Evangelizing vim and key bindings. Trust me, I didn't think I'd be that person either.",
       "Tasteful stationery. My current sidekick is this A6 <a href='https://itoya.com/products/notebooks-journals/profolio-oasis-notebook/'>Itoya Oasis</a> notebook. The combined lined/graph/dot paper pattern is perfect for everything from scribbling down dreams to architecting side projects.",
     ],

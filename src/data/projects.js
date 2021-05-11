@@ -1,10 +1,10 @@
 const data = {
   meta: {
-    img_dir: "/src/assets/projects/"
+    img_dir: "/assets/projects/"
   },
   header: {
     title: "Projects",
-    img_path: "/src/assets/projects/harry-potter.gif",
+    img_path: "/assets/projects/harry-potter.gif",
   },
   projects: [
     {

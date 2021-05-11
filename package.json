@@ -1,0 +1,22 @@
+{
+  "name": "addis.world",
+  "version": "1.0.0",
+  "description": "Addis Semagn's personal website.",
+  "homepage": "https://addis.world",
+  "main": "index.js",
+  "repository": "git@github.com:addissemagn/addis.world.git",
+  "author": "Addis Semagn <asemagn@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "preact watch",
+    "build": "rimraf build && preact build --no-prerender"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "preact": "^10.5.13",
+    "preact-cli": "^3.0.5",
+    "preact-router": "^3.2.1"
+  }
+}
