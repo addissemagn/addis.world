@@ -1,5 +1,5 @@
-import { Nbsp } from "./Misc";
-import data from "../data/components";
+import { Nbsp } from "./Misc.js";
+import data from "../data/components.js";
 
 const Contact = ({ emailOff }) => (
   <section class="small">

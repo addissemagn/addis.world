@@ -27,8 +27,9 @@ const data = {
         link: "/coming-soon",
       },
     ],
+    // class 'sr-only' is only visible for screen-readers
     footer:
-      "made by addis <a class='no-decor' href='https://github.com/addissemagn/addis.world'><i class='fab fa-github'></i></a>, <br /> listening to <a href='https://open.spotify.com/playlist/0cF1p8yQopiQTNN6HktvOt?si=daecec02b0e54e09'>♫</a>",
+      "made by addis <a class='no-decor' href='https://github.com/addissemagn/addis.world'><span class='sr-only'>GitHub repository</span><i class='fab fa-github'></i></a>, <br /> listening to <a href='https://open.spotify.com/playlist/0cF1p8yQopiQTNN6HktvOt?si=daecec02b0e54e09'><span class='sr-only'>Spotify playlist</span>♫</a>",
   },
 };
 

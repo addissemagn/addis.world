@@ -7,14 +7,16 @@ const SectionProjects = () => {
   var resp = "";
   var row = "";
 
+  //  Alternative import method that webpack suggests for performance but is for some reason slower
+  // <img alt=${proj.name} src=${require(`../${data.meta.img_dir}${proj.img}`).default} />
   data.projects.forEach((proj, index) => {
     row += `<section class="box">
-      <img src="${data.meta.img_dir}${proj.img}" />
+      <img alt=${proj.name} src="${data.meta.img_dir}${proj.img}" />
       <p class="name">
         <strong>${proj.name}</strong>
         ${
           proj.github
-            ? `<a href=${proj.github}><i class='fab fa-github'></i></a>`
+            ? `<a href=${proj.github}><span class='sr-only'>GitHub repository</span><i class='fab fa-github'></i></a>`
             : ""
         }
       </p>
@@ -34,7 +36,7 @@ const SectionProjects = () => {
 
   // If there are an odd number of pieces, add a dummy placeholder
   if (data.projects.length % 2 != 0) {
-    row += `<section class="box hidden"><img src="" /></section>`;
+    row += `<section class="box hidden"><img alt="Placeholder" src="" /></section>`;
     resp += `<div class="row">` + row + `</div>`;
     row = "";
   }
@@ -51,11 +53,12 @@ const App = () => (
         subheading={
           <>
             I like to <TextWave text="wave" /> my wand and cast away newly
-            discovered <strike>technologies</strike> spells to build projects.
+            discovered <del>technologies</del> spells to build projects.
             Here are a few.
           </>
         }
         img={data.header.img_path}
+        img_alt="Harry Potter holding his wand"
       />
       <SectionProjects />
       <Footer />

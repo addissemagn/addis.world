@@ -9,7 +9,7 @@ const SectionArt = () => {
 
   data.art.forEach((piece, index) => {
     row += `<section class="box">
-      <img src="${data.meta.img_dir}${piece.img}" />
+      <img alt=${piece.alt} src="${data.meta.img_dir}${piece.img}" />
       <p>${piece.desc}</p>
     </section>`;
 
@@ -22,7 +22,7 @@ const SectionArt = () => {
 
   // If there are an odd number of pieces, add a dummy placeholder
   if (data.art.length % 2 != 0) {
-    row += `<section class="box hidden"><img src="" /></section>`;
+    row += `<section class="box hidden"><img alt="Placeholder" src="" /></section>`;
     resp += `<div class="row">` + row + `</div>`;
     row = "";
   }

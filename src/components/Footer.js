@@ -1,6 +1,6 @@
-import Contact from "./Contact";
-import { Styled } from "./Misc";
-import data from "../data/components";
+import Contact from "./Contact.js";
+import { Styled } from "./Misc.js";
+import data from "../data/components.js";
 
 const Footer = () => (
   <footer>

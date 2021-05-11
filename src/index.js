@@ -1,9 +1,9 @@
 import { render } from "preact";
 import Router from "preact-router";
-import Home from "./pages/home";
-import Art from "./pages/art";
-import Projects from "./pages/projects";
-import Message from "./pages/message";
+import Home from "./pages/home.js";
+import Art from "./pages/art.js";
+import Projects from "./pages/projects.js";
+import Message from "./pages/message.js";
 
 (function onPageLoad() {
   // Set light/dark theme
