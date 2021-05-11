@@ -7,16 +7,16 @@ export const Nbsp = () => <Styled text="&nbsp" />;
 export const TextWave = ({ text }) =>
   text.split("").map((c) => <span class="letter">{c}</span>);
 
-export const Header = ({ heading, subheading, img }) => (
+export const Header = ({ heading, subheading, img, img_alt }) => (
   <section class="mt-4 header">
     <h1 class="name">{heading}</h1>
-    <center>
+    <div class="center">
       <p>{subheading}</p>
-    </center>
+    </div>
     {img && (
-      <center>
-        <img src={img} />
-      </center>
+      <div class="center">
+        <img alt={img_alt} src={img} />
+      </div>
     )}
   </section>
 );

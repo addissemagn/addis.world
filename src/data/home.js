@@ -7,7 +7,7 @@ const data = {
       // sub: "<span class='small'>Is your company hiring? You should consider <a>these amazing developers</a>.</span>"
     },
     current: {
-      title: "What I do",
+      title: "What I'm doing",
       // desc: "(Kindly) tell computers what to do as a:",
     },
     experiences: {
@@ -57,7 +57,7 @@ const data = {
       position: "Software Engineer Intern",
       date: "Summer 2020",
       desc:
-        "Pioneered the development of the e-commerce dashboard + expanded the merchant-facing API for businesses to accept cryptocurrency payments. Wore many hats, including deploying an internal mail server saving $3.6K annually and configuring the first log monitoring."
+        "Pioneered the development of the e-commerce dashboard & expanded merchant-facing API for businesses to accept crypto payments. Wore many hats, including deploying an internal mail server and the first log monitoring."
     },
     {
       company: "Shopify",
@@ -65,22 +65,24 @@ const data = {
       position: "Software Engineer Intern",
       date: "Fall 2021",
       tag: "Future",
-      desc: "SRE & Infrastructure.",
+      desc: "Infrastructure & site reliability engineer, making commerce better for everyone.",
     },
   ],
   // Each string represents a line break
   about: {
     bio: [
       // "First sentence embedded in /src/pages/home.js",
-      "I'm from Addis Ababa, Ethiopia and have been calling Toronto home since 2013. Though I've lived in 5 countries, my fluencies in computer languages far outnumber my spoken ones.",
-      "I first learned to code in my first-year intro to C course. My endless curiosity met with this new power to make led to many late nights of tinkering and a passion was born (this is starting to sound like a romance). I'm immensely grateful to also do this for a living.",
-      "Ultimately, I'm driven by relationships, experiences, and growth. The empowerment that tech and the wonderful people I've met through it have given me is something I want to continuously share. To build software that enables people to take control of their lives. To make tech more accessible to underrepresented communities. To learn exciting things and share that excitement with others. To live a life generous in giving.",
+      "I'm from Addis Ababa, Ethiopia and have been calling Toronto home since 2013. Though I've lived in 5 countries, my proficiencies in computer languages far outnumber my spoken ones.",
+      "I first learned programming in my first-year intro to C course. My endless curiosity met with this new power to make led to many late nights of tinkering and a passion was born (this is starting to sound like a romance).",
+      "Ultimately, I'm driven by relationships, experiences, and growth. I believe in the power of empowering others, just as wonderful people and opportunities have empowered me.",
+      "I want to build software that enables people to take control of their lives. To make tech more accessible to underrepresented communities. To learn exciting things and share that excitement with others. To live a life generous in giving.",
     ],
     interests: [
-      "Collecting hobbies. Lately, I've gotten back into writing songs and playing electric guitar, and been <strike>taking L's</strike> learning how to skateboard. I also like <a href='/art'>making art</a>, though I do a lot less of that these days.",
-      "Discovering music ♪٩(✿′ᗜ‵✿)۶♪ and making <Link href='https://open.spotify.com/user/heyaddis'>Spotify playlists</Link>.",
+      "Collecting hobbies. Lately, I've gotten back into writing songs and playing electric guitar, and been <del>taking L's</del> learning how to skateboard. I also like <a href='/art'>making art</a>, though I do a lot less of that these days.",
+      "Discovering music ♪٩(✿′ᗜ‵✿)۶♪ and making <a href='https://open.spotify.com/user/heyaddis'>Spotify playlists</a>.",
       "Evangelizing vim and key bindings. Trust me, I didn't think I'd be that person either.",
-      "Tasteful stationery. My current sidekick is this A6 <a href='https://itoya.com/products/notebooks-journals/profolio-oasis-notebook/'>Itoya Oasis</a> notebook. The combined lined/graph/dot paper pattern is perfect for everything from scribbling down dreams to architecting side projects.",
+      "Tasteful stationery. This A6 <a href='https://itoya.com/products/notebooks-journals/profolio-oasis-notebook/'>Itoya Oasis</a> notebook is my current sidekick; lovely lined/graph/dot paper pattern.",
+      "Financial technology and literacy."
     ],
   },
 };

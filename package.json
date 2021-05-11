@@ -9,10 +9,11 @@
   "license": "MIT",
   "scripts": {
     "dev": "preact watch",
-    "build": "rimraf build && preact build --no-prerender"
+    "build": "preact build --no-prerender",
+    "test": "pa11y http://localhost:8080"
   },
   "devDependencies": {
-    "rimraf": "^3.0.2"
+    "pa11y": "^5.3.1"
   },
   "dependencies": {
     "preact": "^10.5.13",

@@ -116,31 +116,36 @@ const SectionAbout = () => {
     </p>
   );
 
+  const DescList = ({ heading, list }) => (
+    <dl class="list-bullets">
+      <dt>{heading && <strong>{heading}</strong>}</dt>
+      {list.map((i) => (
+        <dd>
+          <Styled text={i} />
+        </dd>
+      ))}
+    </dl>
+  );
+
   return (
     <section class="box">
       <h2>About</h2>
-      <center>
-        <img class="me" src="/assets/me.jpg" />
+      <div class="center">
+        <img alt="Photo of Addis Semagn" class="me" src="/assets/images/me.jpg" />
         <p class="small">5'4"; 5'8" on a good afro day :)</p>
-      </center>
+      </div>
 
       <Hi />
       {data.about.bio.map((p) => (
-        <p>
-          <Styled text={p} />
-        </p>
+        (p instanceof Array) ? (
+          <DescList list={p} />
+        ):(
+          <p>
+            <Styled text={p} />
+          </p>
+        )
       ))}
-      <dl class="list-bullets">
-        <dt>
-          <strong>Some Things I'm Into</strong>
-        </dt>
-        {data.about.interests.map((i) => (
-          <dd>
-            <Styled text={i} />
-          </dd>
-        ))}
-      </dl>
-
+      <DescList heading="Some Things I'm Into" list ={data.about.interests} />
       <p class="small">
         If you want to chat about any of these things, let's grab a virtual
         coffee (or the drink that's ya vibe).

@@ -1,5 +1,5 @@
 import { Link } from "preact-router/match";
-import data from "../data/components";
+import data from "../data/components.js";
 
 const toggleTheme = () => {
   const currTheme = localStorage.getItem("theme") || "light";
@@ -18,7 +18,7 @@ const Nav = () => (
       {data.components.nav.map((n) => (
         <Link href={n.link}>{n.name}</Link>
       ))}
-      <a class="toggle">
+      <a name="theme-toggle" class="toggle">
         <input
           type="checkbox"
           id="toggle"
