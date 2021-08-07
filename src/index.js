@@ -3,6 +3,7 @@ import Router from "preact-router";
 import Home from "./pages/home.js";
 import Art from "./pages/art.js";
 import Projects from "./pages/projects.js";
+import Resume from "./pages/resume.js";
 import Message from "./pages/message.js";
 
 (function onPageLoad() {
@@ -32,6 +33,7 @@ const App = () => {
         <Home path="/" />
         <Art path="/art" />
         <Projects path="/projects" />
+        <Resume path="/resume" />
         <Message path="/coming-soon" type="comingSoon" />
         <Message default type="404" />
       </Router>

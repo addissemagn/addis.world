@@ -24,7 +24,7 @@ const data = {
       },
       {
         name: "Resume",
-        link: "/coming-soon",
+        link: "/resume",
       },
     ],
     // class 'sr-only' is only visible for screen-readers
