@@ -1,5 +1,5 @@
 import { render } from "preact";
-import Router from "preact-router";
+import { Router, Route } from "preact-router";
 import Home from "./pages/home.js";
 import Art from "./pages/art.js";
 import Projects from "./pages/projects.js";
@@ -36,6 +36,13 @@ const App = () => {
         <Resume path="/resume" />
         <Message path="/coming-soon" type="comingSoon" />
         <Message default type="404" />
+        <Route
+          path="/name"
+          component={() => {
+            window.location.href = "/assets/audio/name.mp3";
+            return null;
+          }}
+        />
       </Router>
     </div>
   );

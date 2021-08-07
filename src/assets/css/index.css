@@ -101,6 +101,7 @@ h1 {
 
 .pronounce {
     color: var(--text-secondary);
+    cursor: pointer;
 }
 
 h2 {

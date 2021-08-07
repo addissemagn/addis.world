@@ -147,8 +147,8 @@ const SectionAbout = () => {
       ))}
       <DescList heading="Some Things I'm Into" list ={data.about.interests} />
       <p class="small">
-        If you want to chat about any of these things, let's grab a virtual
-        coffee (or the drink that's ya vibe).
+        If you want to chat about any of these things, let's grab a
+        coffee (replace with drink of choice) :)
       </p>
     </section>
   );

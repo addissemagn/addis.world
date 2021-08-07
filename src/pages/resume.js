@@ -13,11 +13,10 @@ const App = () => {
       <main>
         <Nav />
         <Header
-	  heading="ʕ•ᴥ•ʔ"
-	  subheading={<Styled text={`<a href='${data.resume.direct_download_link}'>${data.resume.direct_download_text}</a>`} />} 
-	  subscript="Last updated Aug 6, 2021"
-	 />
-	<SectionResume />
+	        heading="ʕ•ᴥ•ʔ"
+	        subheading={<Styled text={`<a href='${data.resume.direct_download_link}'>${data.resume.direct_download_text}</a>`} />}
+	      />
+	      <SectionResume />
         <Footer />
       </main>
     </div>

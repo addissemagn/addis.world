@@ -16,12 +16,12 @@ const SectionProjects = () => {
         <strong>${proj.name}</strong>
         ${
           proj.github
-            ? `<a href=${proj.github}><span class='sr-only'>GitHub repository</span><i class='fab fa-github'></i></a>`
+            ? `<a href=${proj.github} target="_blank"><span class='sr-only'>GitHub repository</span><i class='fab fa-github'></i></a>`
             : ""
         }
         ${
           proj.link
-            ? `<a href=${proj.link}><span class='sr-only'>Link to project</span><i class='fas fa-link'></i></a>`
+            ? `<a href=${proj.link} target="_blank"><span class='sr-only'>Link to project</span><i class='fas fa-link'></i></a>`
             : ""
         }
       </p>
