@@ -5,7 +5,7 @@ my personal website, built with [preact.js](https://preactjs.com) and hosted on 
 
 to run locally:
 ```sh
-git clone git@github.com:addissemagn/addis.world.git && cd addis.world
+git clone https://github.com/addissemagn/addis.world.git && cd addis.world
 yarn
 yarn dev
 ```
