@@ -13,7 +13,7 @@ const data = {
     experiences: {
       title: "What I've done",
       desc:
-        "I love the process of imagining better futures and coding them into existence. I've shipped end-to-end products in backend, full-stack, and infrastructure roles at companies of all sizes.",
+        "I love the process of imagining better futures and coding them into existence. I've shipped end-to-end products in backend, full-stack, and infrastructure roles at companies of all sizes, currently focusing on payments infrastructure at Cash App.",
     },
     callToAction: {
       title: "What can we do together?",
@@ -22,26 +22,49 @@ const data = {
     },
   },
   current: [
-    "Software Engineer at <a href='https://microsoft.com'><strong>Microsoft</strong></a>",
+    "Senior Software Engineer at <a href='https://cash.app'><strong>Cash App</strong></a> (Block)",
     "Computer Engineering '22 Graduate from the <a href='https://www.engineering.utoronto.ca'><strong>University of Toronto</strong></a>",
   ],
   experiences: [
     {
+      company: "Cash App (Block)",
+      url: "https://cash.app",
+      position: "Senior Software Engineer",
+      date: "Jan 2024 - Present",
+      tag: "Current",
+      desc:
+        "Backend (Server) engineer on the Cash App Pay, Payments Team, building payment experiences for millions of users.",
+    },
+    {
+      company: "Cash App (Block)",
+      url: "https://cash.app",
+      position: "Software Engineer II",
+      date: "Jul 2022 - Jan 2024",
+      desc:
+        "Backend (Server) engineer on the Cash App Pay, Payments Team, developing scalable payment infrastructure and services.",
+    },
+    {
+      company: "Shopify",
+      url: "https://shopify.com",
+      position: "Software Engineer Intern",
+      date: "Sep 2021 - Dec 2021",
+      desc: "Infrastructure/Site Reliability engineer on the Database Engineering Team, working on database infrastructure and reliability.",
+    },
+    {
       company: "Microsoft",
       url: "https://microsoft.com",
       position: "Software Engineer Intern",
-      date: "Summer 2021",
-      tag: "Current",
+      date: "May 2021 - Aug 2021",
       desc:
-        "Developing and shipping a new Microsoft product offering in 13 weeks.",
+        "Full-Stack (Desktop) engineer on Microsoft Teams, developing desktop application features using Electron and TypeScript.",
     },
     {
-      company: "Cash App, Square",
+      company: "Cash App",
       url: "https://cash.app",
       position: "Software Engineer Intern",
-      date: "Winter 2021",
+      date: "Jan 2021 - Apr 2021",
       desc:
-        "Product server engineer on the Commerce team, building new retail payment experiences for Cash App users.",
+        "Backend (Server) engineer on the Cash App Pay, Payments Team, building payment infrastructure and services.",
     },
     {
       company: "Uplift",
@@ -58,14 +81,6 @@ const data = {
       date: "Summer 2020",
       desc:
         "Pioneered the development of the e-commerce dashboard & expanded merchant-facing API for businesses to accept crypto payments. Wore many hats, including deploying an internal mail server and the first log monitoring."
-    },
-    {
-      company: "Shopify",
-      url: "https://shopify.com",
-      position: "Software Engineer Intern",
-      date: "Fall 2021",
-      tag: "Future",
-      desc: "Infrastructure & site reliability engineer, making commerce better for everyone.",
     },
   ],
   // Each string represents a line break
