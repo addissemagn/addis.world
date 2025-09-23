@@ -55,7 +55,7 @@ const data = {
       position: "Software Engineer Intern",
       date: "May 2021 - Aug 2021",
       desc:
-        "Full-Stack (Desktop) engineer on Microsoft Teams, developing desktop application features using Electron and TypeScript.",
+        "Built APIs and WebSocket integrations for MS Teams to connect external software and hardware partners, including architecture design for hardware plugins using TypeScript and C#.",
     },
     {
       company: "Cash App",
