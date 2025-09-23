@@ -63,7 +63,7 @@ const data = {
       position: "Software Engineer Intern",
       date: "Jan 2021 - Apr 2021",
       desc:
-        "Backend (Server) engineer on the Cash App Pay, Payments Team, building payment infrastructure and services.",
+        "Product server engineer on the Commerce team, building retail payment experiences for Cash App customers.",
     },
     {
       company: "Uplift",
