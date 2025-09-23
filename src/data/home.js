@@ -84,10 +84,10 @@ const data = {
     {
       company: "University of Toronto",
       url: "https://www.engineering.utoronto.ca",
-      position: "Bachelor of Applied Science, Computer Engineering",
+      position: "Computer Engineering",
       date: "2017 - 2022",
       desc:
-        "Studied computer engineering with a focus on software and how computers work. Did 5 back-to-back internships during school, spanning 20 months at companies like Shopify, Microsoft, and Cash App."
+        "During this time did the 5 back-to-back internships above."
     },
   ],
   // Each string represents a line break
