@@ -32,7 +32,7 @@ const data = {
       date: "Jan 2024 - Present",
       tag: "Current",
       desc:
-        "Backend (Server) engineer on the Cash App Pay, Payments Team, building payment experiences for millions of users.",
+        "Building payment features that millions of people use to send and spend money.",
     },
     {
       company: "Cash App (Block)",
@@ -40,14 +40,14 @@ const data = {
       position: "Software Engineer II",
       date: "Jul 2022 - Jan 2024",
       desc:
-        "Backend (Server) engineer on the Cash App Pay, Payments Team, developing scalable payment infrastructure and services.",
+        "Worked on the payments system that powers Cash App's money transfers and transactions.",
     },
     {
       company: "Shopify",
       url: "https://shopify.com",
       position: "Software Engineer Intern",
       date: "Sep 2021 - Dec 2021",
-      desc: "Infrastructure/Site Reliability engineer on the Database Engineering Team, working on database infrastructure and reliability.",
+      desc: "Helped keep Shopify's databases running smoothly so millions of online stores stay online.",
     },
     {
       company: "Microsoft",
@@ -55,7 +55,7 @@ const data = {
       position: "Software Engineer Intern",
       date: "May 2021 - Aug 2021",
       desc:
-        "Built APIs and WebSocket integrations for MS Teams to connect external software and hardware partners, including architecture design for hardware plugins using TypeScript and C#.",
+        "Built features to help Microsoft Teams work with external devices and software.",
     },
     {
       company: "Cash App",
@@ -71,7 +71,7 @@ const data = {
       position: "Software Engineer Intern",
       date: "Fall 2020",
       desc:
-        "Scaled the operations web app for travel financing services, implementing system to manage sensitive customer data and a kill switch for point-of-sale.",
+        "Built tools to help the team manage travel financing and keep customer data secure.",
     },
     {
       company: "RelayPay",
@@ -79,7 +79,7 @@ const data = {
       position: "Software Engineer Intern",
       date: "Summer 2020",
       desc:
-        "Pioneered the development of the e-commerce dashboard & expanded merchant-facing API for businesses to accept crypto payments. Wore many hats, including deploying an internal mail server and the first log monitoring."
+        "Built the dashboard and tools that let businesses accept cryptocurrency payments. Also set up email systems and monitoring."
     },
     {
       company: "University of Toronto",
@@ -87,7 +87,7 @@ const data = {
       position: "Bachelor of Applied Science, Computer Engineering",
       date: "2018 - 2022",
       desc:
-        "Computer Engineering degree with focus on software systems, algorithms, and digital systems design."
+        "Studied computer engineering with a focus on software and how computers work."
     },
   ],
   // Each string represents a line break
