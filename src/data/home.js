@@ -29,18 +29,10 @@ const data = {
       company: "Cash App (Block)",
       url: "https://cash.app",
       position: "Senior Software Engineer",
-      date: "Jan 2024 - Present",
+      date: "Jul 2022 - Present",
       tag: "Current",
       desc:
-        "Backend (Server) engineer on the Cash App Pay, Payments Team, building payment experiences for millions of users.",
-    },
-    {
-      company: "Cash App (Block)",
-      url: "https://cash.app",
-      position: "Software Engineer II",
-      date: "Jul 2022 - Jan 2024",
-      desc:
-        "Backend (Server) engineer on the Cash App Pay, Payments Team, developing scalable payment infrastructure and services.",
+        "Backend (Server) engineer on the Cash App Pay, Payments Team, building payment experiences for millions of users and developing scalable payment infrastructure.",
     },
     {
       company: "Shopify",
