@@ -79,7 +79,7 @@ const data = {
       position: "Software Engineer Intern",
       date: "Summer 2020",
       desc:
-        "Built the dashboard and tools that let businesses accept cryptocurrency payments. Also set up email systems and monitoring."
+        "Pioneered the development of the e-commerce dashboard & expanded merchant-facing API for businesses to accept crypto payments. Wore many hats, including deploying an internal mail server and the first log monitoring."
     },
     {
       company: "University of Toronto",
