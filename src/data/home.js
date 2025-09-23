@@ -71,7 +71,7 @@ const data = {
       position: "Software Engineer Intern",
       date: "Fall 2020",
       desc:
-        "Built tools to help the team manage travel financing and keep customer data secure.",
+        "Scaled the operations web app for travel financing services, implementing system to manage sensitive customer data and a kill switch for point-of-sale.",
     },
     {
       company: "RelayPay",
