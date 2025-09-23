@@ -13,7 +13,7 @@ const data = {
     experiences: {
       title: "What I've done",
       desc:
-        "I love the process of imagining better futures and coding them into existence. I've shipped end-to-end products in backend, full-stack, and infrastructure roles at companies of all sizes, currently focusing on payments infrastructure at Cash App.",
+        "I love the process of imagining better futures and coding them into existence. I've shipped end-to-end products in backend, full-stack, and infrastructure roles at companies of all sizes.",
     },
     callToAction: {
       title: "What can we do together?",
@@ -23,7 +23,6 @@ const data = {
   },
   current: [
     "Senior Software Engineer at <a href='https://cash.app'><strong>Cash App</strong></a> (Block)",
-    "Computer Engineering '22 Graduate from the <a href='https://www.engineering.utoronto.ca'><strong>University of Toronto</strong></a>",
   ],
   experiences: [
     {
@@ -81,6 +80,14 @@ const data = {
       date: "Summer 2020",
       desc:
         "Pioneered the development of the e-commerce dashboard & expanded merchant-facing API for businesses to accept crypto payments. Wore many hats, including deploying an internal mail server and the first log monitoring."
+    },
+    {
+      company: "University of Toronto",
+      url: "https://www.engineering.utoronto.ca",
+      position: "Bachelor of Applied Science, Computer Engineering",
+      date: "2018 - 2022",
+      desc:
+        "Computer Engineering degree with focus on software systems, algorithms, and digital systems design."
     },
   ],
   // Each string represents a line break
