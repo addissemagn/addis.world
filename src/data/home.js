@@ -22,8 +22,8 @@ const data = {
     },
   },
   current: [
-    "Software Engineering at <a href='https://microsoft.com'><strong>Microsoft</strong></a>",
-    "Computer Engineering '22 at the <a href='https://www.engineering.utoronto.ca'><strong>University of Toronto</strong></a>",
+    "Software Engineer at <a href='https://microsoft.com'><strong>Microsoft</strong></a>",
+    "Computer Engineering '22 Graduate from the <a href='https://www.engineering.utoronto.ca'><strong>University of Toronto</strong></a>",
   ],
   experiences: [
     {
