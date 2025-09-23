@@ -58,7 +58,7 @@ const data = {
         "Built features to help Microsoft Teams work with external devices and software.",
     },
     {
-      company: "Cash App",
+      company: "Cash App (Block)",
       url: "https://cash.app",
       position: "Software Engineer Intern",
       date: "Jan 2021 - Apr 2021",
