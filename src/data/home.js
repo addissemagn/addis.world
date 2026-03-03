@@ -22,18 +22,42 @@ const data = {
     },
   },
   current: [
-    "Software Engineering at <a href='https://microsoft.com'><strong>Microsoft</strong></a>",
-    "Computer Engineering '22 at the <a href='https://www.engineering.utoronto.ca'><strong>University of Toronto</strong></a>",
+    "I'm a <a href='https://cash.app'><strong>Senior Software Engineer at Cash App</strong></a> based in Toronto, with a background in Computer Engineering from the <a href='https://www.engineering.utoronto.ca'><strong>University of Toronto</strong></a>.",
   ],
   experiences: [
+    // Full-time
+    {
+      company: "Cash App, Square",
+      url: "https://cash.app",
+      position: "Senior Software Engineer",
+      date: "Jan 2024 – Present",
+      desc:
+        "Building backend systems for payments and orders across Cash App's commerce products.",
+    },
+    {
+      company: "Cash App, Square",
+      url: "https://cash.app",
+      position: "Software Engineer II",
+      date: "Jul 2022 – Jan 2024",
+      desc:
+        "Shipped Cash App Pay disputes automation and revenue systems to unlock partnerships like Stripe.",
+    },
+    // Internships
+    {
+      company: "Shopify",
+      url: "https://shopify.com",
+      position: "Software Engineer Intern",
+      date: "Fall 2021",
+      desc:
+        "Built tooling for safer, less painful database migrations.",
+    },
     {
       company: "Microsoft",
       url: "https://microsoft.com",
       position: "Software Engineer Intern",
       date: "Summer 2021",
-      tag: "Current",
       desc:
-        "Developing and shipping a new Microsoft product offering in 13 weeks.",
+        "Built a Microsoft Teams interface for hardware-based meeting controls.",
     },
     {
       company: "Cash App, Square",
@@ -41,7 +65,7 @@ const data = {
       position: "Software Engineer Intern",
       date: "Winter 2021",
       desc:
-        "Product server engineer on the Commerce team, building new retail payment experiences for Cash App users.",
+        "Built the settlement reporting system for Cash App Pay.",
     },
     {
       company: "Uplift",
@@ -49,7 +73,7 @@ const data = {
       position: "Software Engineer Intern",
       date: "Fall 2020",
       desc:
-        "Scaled the operations web app for travel financing services, implementing system to manage sensitive customer data and a kill switch for point-of-sale.",
+        "Built internal tools to automate financial operations.",
     },
     {
       company: "RelayPay",
@@ -57,15 +81,7 @@ const data = {
       position: "Software Engineer Intern",
       date: "Summer 2020",
       desc:
-        "Pioneered the development of the e-commerce dashboard & expanded merchant-facing API for businesses to accept crypto payments. Wore many hats, including deploying an internal mail server and the first log monitoring."
-    },
-    {
-      company: "Shopify",
-      url: "https://shopify.com",
-      position: "Software Engineer Intern",
-      date: "Fall 2021",
-      tag: "Future",
-      desc: "Infrastructure & site reliability engineer, making commerce better for everyone.",
+        "Built the e-commerce dashboard and merchant APIs for crypto payments.",
     },
   ],
   // Each string represents a line break
