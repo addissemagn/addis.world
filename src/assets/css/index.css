@@ -149,6 +149,8 @@ dt a {
 
 .home a {
     background: var(--link-background);
+    display: inline;
+    position: static;
 }
 
 .home a:after {
@@ -211,6 +213,25 @@ i {
 strong,
 b {
     font-weight: 700;
+}
+
+/* Prevent breaking inside job titles and important phrases - desktop only */
+.home a strong.no-break {
+    white-space: nowrap;
+}
+
+/* On mobile, allow breaking */
+@media screen and (max-width: 480px) {
+    /* Allow links and their content to break on mobile */
+    .home a {
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+    
+    /* Remove no-break behavior from strong tags inside links on mobile */
+    .home a strong.no-break {
+        white-space: normal;
+    }
 }
 
 .me {

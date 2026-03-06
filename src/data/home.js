@@ -22,7 +22,7 @@ const data = {
     },
   },
   current: [
-    "I'm a <a href='https://cash.app'><strong>Senior Software Engineer at Cash App</strong></a> based in Toronto, with a background in Computer Engineering from the <a href='https://www.engineering.utoronto.ca'><strong>University of Toronto</strong></a>.",
+    "I'm a <a href='https://cash.app'><strong class='no-break'>Senior Software Engineer at Cash App</strong></a> based in Toronto, with a background in Computer Engineering from the <a href='https://www.engineering.utoronto.ca'><strong class='no-break'>University of Toronto</strong></a>.",
   ],
   experiences: [
     // Full-time

@@ -8,7 +8,7 @@
   "author": "Addis Semagn <asemagn@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "preact watch",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider preact watch",
     "build": "NODE_OPTIONS=--openssl-legacy-provider preact build --no-prerender",
     "test": "pa11y http://localhost:8080"
   },
