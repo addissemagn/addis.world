@@ -27,20 +27,20 @@ const data = {
   experiences: [
     // Full-time
     {
-      company: "Cash App, Square",
+      company: "Cash App",
       url: "https://cash.app",
       position: "Senior Software Engineer",
       date: "Jan 2024 – Present",
       desc:
-        "Building backend systems for payments and orders across Cash App's commerce products.",
+        "Building the backend that powers payments and orders across Cash App's commerce products.",
     },
     {
-      company: "Cash App, Square",
+      company: "Cash App",
       url: "https://cash.app",
       position: "Software Engineer II",
       date: "Jul 2022 – Jan 2024",
       desc:
-        "Shipped Cash App Pay disputes automation and revenue systems to unlock partnerships like Stripe.",
+        "Shipped Cash App Pay's disputes automation and revenue systems to unlock partnerships like Stripe.",
     },
     // Internships
     {
